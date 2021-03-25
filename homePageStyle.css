@@ -1,0 +1,735 @@
+body {
+    background-color: #0a192f;
+    padding-bottom: 57px;
+    min-height: 100vh;
+    position: relative;
+    
+}
+
+footer{
+
+ 
+  text-align: center;
+  color:#fafafa;
+  bottom: 0; 
+  width: 100%;
+  position: absolute;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  
+}
+#footNote{
+  padding-bottom: 0px;
+
+}
+.social-icon{
+  text-align: center;
+  padding-bottom: 4px;
+  color:#64ffda;
+}
+#linkedin{
+
+  color: #64ffda;
+  text-align: center;
+  cursor:pointer;
+}
+#linkedin:hover{
+  color:#fafafa;
+
+}
+
+#facebook{
+  color: #64ffda;
+  cursor: pointer;
+}
+
+#facebook:hover{
+  color:#fafafa;
+
+}
+
+#instagram{
+  color: #64ffda;
+  cursor: pointer;
+}
+
+#instagram:hover{
+  color:#fafafa;
+}
+
+#github{
+  color: #64ffda;
+  cursor: pointer;
+}
+#github:hover{
+  color:#fafafa;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #0a192f;
+
+  }
+
+
+
+  .navbar-brand{
+
+   
+    color: rgba(100,255,218, 1) !important ;
+  
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    
+    
+  }
+  li{
+   
+   display: inline-flex;
+   float:right;
+
+  }
+
+  
+  
+  /* Navbar links */
+  li a {
+    
+    
+    
+    color: #64FFDA;
+    font-size: 1.3vw;
+    padding: 20px 14px 14px 14px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+  }
+
+  li a:hover{
+    color:#fafafa;
+    text-decoration: none;
+  }
+
+  label{
+    
+      color:#64FFDA;
+      text-align: right;
+     
+      display: none;
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(100,255,218, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    
+}
+  
+ 
+
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  
+
+  #intro {
+    margin: 150px 150px 20px ;
+    font-size: 25px;
+    font-family: 'Courier New';
+    color:#64FFDA; 
+
+  }
+
+  #name{
+     
+      color: #cccdce;
+      font-family: 'Times New Roman';
+      margin: 0px 150px 0px;
+      font-size: 10vw;
+  }
+   
+  #introStatment{
+    color:  #64FFDA; 
+    font-size: 25px; 
+    margin: 30px 150px; 
+    font-family: 'Courier New';
+  }
+  #introStatment::after{
+    content: ""; 
+    position:absolute;
+    background:#64FFDA;
+    line-height: 17px;
+    -webkit-animation: blink 0.8s infinite;
+    margin: 5px;
+    width: 7px;
+    height: 20px;
+  }
+  
+  @-webkit-keyframes blink {
+    0% {background:#0a192f}
+    50% {background:#64FFDA}
+    100% {background: #0a192f}
+  }
+
+  #resume{
+
+    
+    border: 1px solid #64FFDA;
+    border-radius: 15px;
+    background-color: #0a192f;
+    color: #64ffda;
+    cursor: pointer;
+  
+  
+  }
+  #resume:hover{
+    color: rgba(255,255,255,1);
+    background-color: rgba(100,255,218, 0.2) ;
+   
+  }
+
+
+  
+/*********************************************************************/
+/* ABOUT ME CSS */
+
+
+.container{
+  display: flex;
+  justify-content: center;
+ 
+}
+#aboutMe{
+
+  padding-top: 4vw;
+  padding-right: 0px;
+  color: #64ffda;
+  font-family: 'Courier New'; 
+  font-size: 3.0vw;
+  text-align: center;
+
+  
+}
+
+#myPicture{
+  
+  
+  padding-top: 100px;
+  object-fit: contain;
+  height: 500px;
+  width: 300px;
+  
+
+
+}
+
+#paraAboutMe{
+
+
+  color: #cccdce;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.8vw;
+  text-align: left;
+  padding-left: 5vw;
+}
+/*****************************************/
+/* Contact me CSs */
+#contactMe{
+
+  color: #64ffda;
+  font-family: 'Courier New', Courier, monospace; 
+  font-size: 30px;
+  padding-top: 2vw;
+  text-align: center;
+
+
+}
+.contactForm{
+  text-align: center;
+}
+#yourName{
+  width: 30vw;
+  margin-bottom: 0.5vw;
+  
+}
+#yourEmail{
+  width: 30vw;
+  margin-bottom: 0.5vw;
+}
+
+#yourMessage{
+  width: 30vw;
+  margin-bottom: 0.5vw;
+}
+#submit{
+
+  margin-top: 1vw;
+  text-align: center;
+  border: 2px solid #64FFDA;
+  background-color:#0a192f;
+  border-radius: 15px;
+  color: #64ffda;
+  padding: 14px 28px;
+  cursor: pointer;
+
+}
+#submit:hover{
+  color: #a2a2a3;
+  background-color: rgba(100,255,218, 0.2) ;
+
+}
+/******************************************/
+
+#myWork{
+  font-family: 'Courier New', Courier, monospace;
+  color:#64ffda;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 4vw;
+  padding-bottom: 2vw;
+}
+
+.info-table{
+  justify-self: center;
+}
+table,td,th{
+  border: 2px solid #64FFDA;
+  color:#fafafa;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center; 
+  width: 40vw;
+  
+
+}
+
+#tableTitle{
+  color: #64ffda;
+}
+
+/**********************************************************/
+/* store */
+
+#store{
+  font-family: 'Courier New', Courier, monospace;
+  color:#64ffda;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+.band-name-large {
+  font-size: 8em;
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+.section-header {
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #fafafa;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: .67em .67em;
+  cursor: pointer;
+}
+
+.btn-header {
+  margin: .5em 15% 2em 15%;
+  color: white;
+  border: 2px solid #2D9CDB;
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 0;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.btn-header:hover {
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+  display: block;
+  margin: 0 auto;
+  color: #64FFDA;
+  font-size: 4em;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  text-align: center;
+}
+
+.btn-primary {
+  color: #64ffda;
+  background-color: #0a192f;
+  border: 1px solid #64ffda;
+  border-radius: .3em;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace; 
+
+}
+
+.btn-primary:hover {
+  color: rgba(255,255,255,1);
+  background-color: rgba(100,255,218, 0.2) ;
+   
+}
+
+.tour-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+  border: none;
+}
+
+.tour-item {
+  display: inline-block;
+  padding-right: .5em;
+}
+
+.tour-date {
+  color: #555;
+  width: 11%;
+  font-weight: bold;
+}
+
+.tour-city {
+  width: 24%;
+}
+
+.tour-arena {
+  width: 42%;
+}
+
+.tour-btn {
+  max-width: 19%;
+}
+
+.shop-item {
+  margin: 30px;
+}
+
+.shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #fafafa;
+  margin-bottom: 15px;
+}
+
+.shop-item-image {
+  height: 250px;
+}
+
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.shop-item-price {
+  flex-grow: 1;
+  color: #fafafa;
+}
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cart-header {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: white;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid white;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: white;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-item-title {
+  color: #333;
+  margin-left: .5em;
+  font-size: 1.2em;
+}
+
+.cart-item-image {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.btn-danger {
+  color: white;
+  background-color: #EB5757;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56CCF2;
+  background-color: #eee;
+  color: #64ffda;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  color:white;
+  font-size: 1.1em;
+}
+
+.btn-purchase {
+  display: block;
+  margin: 40px auto 80px auto;
+  font-size: 1.75em;
+}
+
+
+/*******************************************************************/
+                          /*iphone SE */
+/*******************************************************************/
+@media only screen and (max-width: 768px)
+{
+
+  body {
+    background-color: #0a192f;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #0a192f;
+   
+}
+
+ .navbar-brand{
+  color: rgba(100,255,218, 1) !important ;
+  font-size: 5vw;
+}
+
+li{
+
+  flex-direction: column;
+    display: block;
+    float:none;
+    text-align: center;
+    padding: 1.5rem 0;
+
+}
+
+/* Navbar links */
+li a {
+    
+    color: #64FFDA;
+    text-align: center;
+    padding: 8vw;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5vw;
+    
+    
+  }
+
+  #intro {
+    margin: 150px 0px 0px 20px ;
+    font-family: 'Courier New';
+    color:#64FFDA; 
+
+  }
+
+  #name{
+     
+      color: #cccdce;
+      font-family: 'Times New Roman';
+      margin: 0px 0px 0px 20px;
+      font-size: 16vw;
+  }
+   
+  #introStatment{
+    color:  #64FFDA; 
+    font-size: 6vw; 
+    margin: 0px 0px 0px 20px; 
+    font-family: 'Courier New';
+  }
+  #introStatment::after{
+    content: ""; 
+    position:absolute;
+    background:#64FFDA;
+    line-height: 2.38vh;
+    -webkit-animation: blink 0.8s infinite;
+    margin:0.44vw ;
+    width: 2vw;
+    height: 3vh;
+  }
+  
+  @-webkit-keyframes blink {
+    0% {background:#0a192f}
+    50% {background:#64FFDA}
+    100% {background: #0a192f}
+  }
+
+
+
+  #resume{
+
+    border: none;
+    background-color: #0a192f;
+    color: #64ffda;
+    cursor: pointer;
+  
+  }
+  #resume:hover{
+   
+    color:#cccdce;
+    background-color: #0a192f;
+
+  }
+
+  /*********************************************************************/
+/* ABOUT ME CSS */
+
+
+.container{
+  display: inline-block;
+
+
+ 
+}
+#aboutMe{
+
+  padding-top: 8vw;
+  padding-left: 2vw;
+  color: #64ffda;
+  font-family: 'Courier New'; 
+  font-size: 7vw;
+  text-align: center;
+  
+}
+
+#myPicture{
+  
+ 
+  justify-content: center;
+  object-fit: contain;
+  height: 400px;
+  width: 200px;
+  
+  
+
+
+}
+
+#paraAboutMe{
+
+  color: #cccdce;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 7vw;
+}
+  #yourName{
+    width: 70vw;
+    margin-bottom: 0.5vw;
+    
+  }
+  #yourEmail{
+    width: 70vw;
+    margin-bottom: 0.5vw;
+  }
+  
+  #yourMessage{
+    width: 70vw;
+    margin-bottom: 0.5vw;
+  }
+
+  
+
+}
+
+
+/*********************************************/
+/* JS */
+
+
+.img{
+
+  display: none; 
+  object-fit: contain;
+  height: 10vw;
+  width: 10vw;
+}

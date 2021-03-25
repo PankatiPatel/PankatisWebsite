@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset = "utf-8"/>
+        <meta name = "viewport"
+          content = "width=device-width,initial-scale=1.0, shrink-to-fit = yes"/>
+        <title> Pankati Patel </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <script src = "homePageJS.js"></script>
+        <link rel = "stylesheet" href = "homePageStyle.css" type="text/css">
+
+    </head>
+
+    <body>
+     
+        <header>
+        <nav class = "navbar navbar-expand-md" >
+
+            <span class="navbar-text" >
+                <a class ="navbar-brand ml-auto"><i id = "codeIcon" class="fas fa-laptop-code"></i></a>
+          </span>
+          
+            <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target = "#coll">
+              <span class = "navbar-toggler-icon "  ></span>
+            </button>
+          
+     
+              
+              <div class = "collapse navbar-collapse" id = "coll">
+              <ul class= "navbar-nav ml-auto">
+                <li class = "active"><a href="index.html">Home</a></li>
+                <li ><a href="aboutMe.html">About Me</a></li>
+                <li><a href="myWork.html">My Work</a></li>
+                <li ><a href="myStore.html">My Store</a></li>
+                <li ><a href="contactMe.html">Contact</a></li> 
+                <li ><a id= "resume" href="Pankati-Patel-Resume.pdf">Resume</a></li>
+            
+              </ul>
+            </div>   
+          </nav>
+        </header>
+            <p id = "myWork">My Work</p>
+    <main>
+        <div class="table">
+          <table align="center">
+              <tr>
+                <th id="tableTitle">What I Do</th>
+                <th id="tableTitle">What I Want To Do</th>  
+              </tr>
+              <tr>
+                  <td>Code Samauri <br>
+                    <img class="img" id="codeSamari" src = "code-samuri.png" alt ="Code Samauri Picture">
+                      <button onclick = "codeSamari()">Click Me</button>
+                  </td>
+                  <td>Make an Application<br>
+                    <img class= "img" id= "app" src = "app.jpg" alt = "application">
+                    <button onclick = "app()">Click Me</button>
+                  </td>
+              </tr>
+              <tr>
+                  <td>Tau Sigma<br>
+                    <img  class="img" id ="tauSigma" src="tau-sigma.png" alt="tau-sigma">
+                    <button onclick = "tauSigma()">Click Me</button>
+                  </td>
+                  <td>Learn CSS<br>
+                    <img  class="img" id ="css" src="css.jpg" alt = "css">
+                    <button onclick = "css()">Click Me</button>
+                </td>
+                 
+              </tr>
+              <tr>
+                  <td>ACM<br>
+                    <img  class= "img" id="acm" src="acm.png" alt="acm">
+                    <button onclick = "acm()">Click Me</button>
+                  </td>
+                  <td>Learn JavaScript<br>
+                    <img  class="img" id="javaS" src="js.jpg" alt = "js" >
+                    <button onclick = "javaS()">Click Me</button>
+                  </td>
+              </tr>
+              <tr>
+                  <td>Bartender<br>
+                    <img  class="img" id= "bar" src="bartender.jpg" alt="bar">
+                    <button onclick = "bar()">Click Me</button>
+                  </td>
+                  <td>DBA or Web Developer<br>
+                    <img  class="img" id="webDev" src="web-developer.png" alt="web">
+                    <button onclick = "webDev()">Click Me</button>
+                  </td>
+              </tr>
+          </table>
+       </div>
+       
+       
+       
+    </main>
+
+       <footer>
+         
+             <p id="footNote"> Designed & Built by Pankati Patel</p>
+        
+        <div class = "social-icon">
+          <a href = "https://www.linkedin.com/in/pankatipatel" ><i id = "linkedin" class="fab fa-linkedin-in center"></i></a>
+          <a href = "https://www.facebook.com/pankati.patel.7"><i id = "facebook" class="fab fa-facebook-f center"></i></a>
+          <a href = "https://www.instagram.com/punkti_brewster/"><i id = "instagram" class="fab fa-instagram center"></i></a>
+          <a href = "#"><i id = "github" class="fab fa-github center"></i></a>
+       
+       
+        </div> 
+       </footer>
+    </body>
+</html>
